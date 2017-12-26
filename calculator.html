@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Calculator</title>
+	<script type="text/javascript" src="calc.js"></script>
+	<script type="text/javascript" src="jquery.js"></script>
+	<script type="text/javascript" src="script.js">
+		
+		
+	</script>
+	<style type="text/css">
+		textarea{
+			resize: none;
+		    /*padding: 5px 10px;*/
+		    display: table-cell;
+		    width: 250px;
+		    height: 100px;
+		    background: white;
+		}
+		div{display: table; }
+		button{
+		    padding: 5px 10px;
+		    display: table-cell;
+		    width: 50px;
+		}
+	</style>
+</head>
+<body onload="process()">
+	<!-- <form> -->
+		<!-- Who are you ? <br> -->
+		<p id="ans">-</p>
+		<!-- <input type="text" name="name" id="input" disabled="" > -->
+		<textarea name="name" id="input" disabled="" ></textarea>
+		<div id="number">
+			<button id="n1">0</button>
+			<button id="n1">1</button>
+			<button id="n2">2</button>
+			<button id="n3">3</button>
+			<button id="n4">4</button><br>
+			<button id="n5">5</button>
+
+			<button id="n6">6</button>
+			<button id="n7">7</button>
+			<button id="n8">8</button>
+			<button id="n9">9</button><br>
+			<button id="+">+</button>
+			<button id="-">-</button>
+			<button id="*">x</button>
+			<button id="/">/</button>
+			<button id="C" onclick="location.reload()">C</button>
+		</div>
+	<!-- </<fieldset></fieldset>orm> -->
+</body>
+</html>
